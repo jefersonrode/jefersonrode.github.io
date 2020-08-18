@@ -7,3 +7,25 @@
 		<meta name="description" content="">
 		<meta name="author" content="20334">
 	</head>
+<body>
+		<a href="#fim">Ir para o Fim da Página</a>
+		
+		<!-- exemplo com tabelas-->
+		<table border="1">
+			<caption>Título para Tabela</caption>
+			<tr>
+				<th>1</th>
+				<th colspan="2">2</th>
+				
+			</tr>
+			<tr>
+				<td rowspan="2">4</td>
+				<td>5</td>
+				<td>6</td>
+			</tr>
+			<tr>
+				
+				<td colspan="2">8</td>
+				
+			</tr>
+		</table>
