@@ -1,0 +1,13 @@
+a:link {
+  color: rgb(0, 3, 158);
+  font-size:20px;
+}
+
+a:visited {
+  color: rgb(148, 148, 148);
+}
+
+a:hover {
+  color: rgb(85, 0, 165);
+  font-size:30px;
+}
