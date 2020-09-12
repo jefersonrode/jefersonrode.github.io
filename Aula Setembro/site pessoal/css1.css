@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#menu {
+    background: rgb(0, 63, 58);
+    display: table;
+    width: 100%;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu ul li {
+    display: inline;
+}
+#menu ul li a{
+    font:13px verdana, arial, tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    background:  rgb(0, 63, 58);
+    text-decoration: none;
+    float: left;
+    padding:15px 20px;
+    margin-left: 1px;
+}
+
+#menu ul li a:hover{
+    color: rgb(0, 63, 58);
+    background:  rgb(255, 255, 255);
+}
+
+div h1{
+    background-color: yellowgreen;
+    border-block-color: blue;
+    border-radius: 5mm;
+    text-decoration: none;
+    font:18px verdana, arial, tahoma, sans-serif;
+    width: 100%;
+    padding:15px 0 ;
+
+}
