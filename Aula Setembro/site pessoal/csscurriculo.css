@@ -14,6 +14,16 @@ body {
     display: table;
     width: 100%;
 }
+#menu2 {
+    background: rgb(0, 63, 58);
+    position: relative;
+    width: 96%;
+    height: 44px;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+    padding: 15px 2%;
+}
 
 #menu ul {
     list-style: none;
@@ -73,12 +83,38 @@ h2{
     opacity: 0.8;
 }
 
-footer{
-    color: chartreuse;
-    width: 100%;
-    position:absolute;
-    bottom: 5px;
-    padding: 15px 0px;
-    text-align: center;
-}
 
+#navlist {
+    position: relative;
+  }
+  
+  #navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+  }
+  
+  #navlist li, #navlist a {
+    height: 44px;
+    display: block;
+  }
+
+#home {
+    left: 0px;
+    width: 46px;
+    background: url('img_navsprites.gif') 0 0;
+  }
+  
+  #prev {
+    left: 63px;
+    width: 43px;
+    background: url('img_navsprites.gif') -47px 0;
+  }
+  
+  #next {
+    left: 129px;
+    width: 43px;
+    background: url('img_navsprites.gif') -91px 0;
+  }
