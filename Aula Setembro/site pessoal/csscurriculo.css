@@ -54,51 +54,19 @@ h2{
     border-radius: 5mm;
     text-decoration: none;
     font:23px verdana, arial, tahoma, sans-serif;
-    width: 100%;
-    padding:18px 0px ;
-    margin-top: 15px;
-    text-align: center;
-}
-
-.tab1{
     width: 50%;
-    background-color: rgb(0, 167, 36);
-    position:absolute;
-    left: 0px;
-    margin-top: 2%;
+    padding:0px 0px ;
+    margin-top: 15px;
+    text-align: left;
     margin-left: 2%;
 }
 
-.p1 {
-    background-color: lightseagreen;
-    padding:15px 20px;
-    width: 50%;
-}
-
-.p2{
-    background-color: rgb(149, 225, 255);
-    width: 80%;
-    padding:15px 50px;
-}
-.divimg2{
-   
-    display: inline-block;
-    position:absolute;
-    right: 0px;
-    margin-top: 2%;
-    margin-right: 2%;
-    width: 300px;
-    height: 400px;
-    padding-right: 0px;
-}
-img{
-    width: 250px;
-    height: 350px;
-    left: 0px;
-}
-
-figcaption{
-    color: rgb(255, 255, 255);
+.c1{
+    color: darkgray;
+    padding-left: 10px 0;
+    text-decoration: none;
+    font:18px verdana, arial, tahoma, sans-serif;
+    margin-left: 2%;
 }
 
 footer{
