@@ -63,18 +63,22 @@ h2{
 
 .c1{
     color: darkgray;
-    padding-left: 10px 0;
+    width: 30%;
+    padding: 10px 10px;
     text-decoration: none;
     font:18px verdana, arial, tahoma, sans-serif;
+    background-color: rgb(5, 5, 5);
     margin-left: 2%;
+    margin-top: 2%;
+    opacity: 0.8;
 }
 
 footer{
     color: chartreuse;
     width: 100%;
-    display: inline-block;
     position:absolute;
     bottom: 5px;
     padding: 15px 0px;
     text-align: center;
 }
+
