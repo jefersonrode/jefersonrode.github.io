@@ -2,6 +2,13 @@
     margin:0;
     padding: 0;
 }
+body {
+     background-image: url("img1.jpg");
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size:100% auto;
+    }
+
 #menu {
     background: rgb(0, 63, 58);
     display: table;
@@ -85,9 +92,11 @@ img{
 }
 
 footer{
+    color: chartreuse;
     width: 100%;
     display: inline-block;
     position:absolute;
-    bottom: 2px;
+    bottom: 5px;
+    padding: 15px 0px;
     text-align: center;
 }
