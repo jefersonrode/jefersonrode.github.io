@@ -1,15 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>php</title>
 </head>
 <body>
     <form method="get" action="php-01.php">
         valor: <input type="number" name="v"/>
         <input type="submit" value="Calcular Raiz"/>
-
     </form>
+<hr>
+   
+
+    <form method="get" action="php-01.php">
+        <label for="cid">Escolha a cidade:</label>
+        <select name="cid" id="cid" required>
+            <option value="3">Rio do sul</option>
+            <option value="2">Blumenal</option>
+            <option value="1">Itajai</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit"/>
+    </form>
+<hr>
+
+<form method="get" action="php-01.php">
+    valor: <input type="number" name="circ"/>
+    <input type="submit" value="Calcular Raiz"/>
+</form>
+
+<hr>
 </body>
 </html>
