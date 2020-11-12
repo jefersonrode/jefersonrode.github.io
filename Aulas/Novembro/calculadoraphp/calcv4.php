@@ -42,17 +42,44 @@ if (isset($_POST["reset"])) {
     <style type="text/css">
       td {
          text-align: center;
-         border: 1px solid red;
+         border: 1px solid #B0E0E6;
          height: 50px;
       }
       #bt {
          height: 40px;
          width: 40px;
          font-size: 20px;
-         color: red;
-         background-color: #1C1C1C;
+         color: black;
+         background-color: #B0E0E6;
          border-radius: 3px;
-         border: 2px solid grey;
+         border: 2px solid #E0FFFF;
+      }
+      #btc{
+         height: 50px;
+         width: 40px;
+         font-size: 20px;
+         color: white;
+         background-color: red;
+         border-radius: 3px;
+         border: 2px solid #B22222;
+      }
+      #bti{
+         height: 45px;
+         width: 40px;
+         font-size: 20px;
+         color: black;
+         background-color: #32CD32;
+         border-radius: 3px;
+         border: 2px solid #00FF00;
+      }
+      #bts{
+         height: 45px;
+         width: 40px;
+         font-size: 20px;
+         color: white;
+         background-color: #00008B;
+         border-radius: 3px;
+         border: 2px solid #0000CD;
       }
       input#v1 {
          background-color: #759475;
@@ -72,14 +99,17 @@ if (isset($_POST["reset"])) {
          font-family: Arial, Helvetica, sans-serif;
       }
       body{
-         background-color: #f9f9f9;
+         background-color: #1C1C1C;
          padding: 35px;
-         
-      } 
+      }
+      #div1{
+         border: 3px solid whitesmoke;
+      }
    </style>
   </head>
 
 <body>
+
 <form method="POST" >
    <table id="calculadora" cellpadding="10" cellspacing="0" >
       <tr>
@@ -103,7 +133,7 @@ if (isset($_POST["reset"])) {
          <input id="bt" type="submit" name="num[]" value="9" />
          </td>
          <td>
-            <input id="bt" type="submit" name="num[]" value="/" />
+            <input id="bts" type="submit" name="num[]" value="/" />
          </td>
       </tr>
          <tr>
@@ -117,7 +147,7 @@ if (isset($_POST["reset"])) {
             <input id="bt" type="submit" name="num[]" value="6" />
       </td>
       <td>
-            <input id="bt" type="submit" name="num[]" value="*" />
+            <input id="bts" type="submit" name="num[]" value="*" />
       </td>
       </tr>
       <tr>
@@ -131,24 +161,25 @@ if (isset($_POST["reset"])) {
             <input id="bt" type="submit" name="num[]" value="3" />
          </td>
          <td>
-            <input id="bt" type="submit" name="num[]" value="-" />
+            <input id="bts" type="submit" name="num[]" value="-" />
          </td>
       </tr>
       <tr>
          <td>
-            <input id="bt" type="submit" name="reset" value="C">
+            <input id="btc" type="submit" name="reset" value="C">
          </td>
          <td>
             <input id="bt" type="submit" name="num[]" value="0" />
          </td>
          <td>
-            <input id="bt" type="submit" name="calcular" value="=" />
+            <input id="bti" type="submit" name="calcular" value="=" />
          </td>
          <td>
-            <input id="bt" type="submit" name="num[]" value="+" />
+            <input id="bts" type="submit" name="num[]" value="+" />
          </td>
       </tr>
    </table>
 </form>
+
 </body>
 </html>
