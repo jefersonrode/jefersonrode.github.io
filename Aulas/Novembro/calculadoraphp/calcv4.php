@@ -47,10 +47,10 @@ if (isset($_POST["reset"])) {
       }
       #bt {
          height: 40px;
-         width: 35px;
+         width: 40px;
          font-size: 20px;
          color: red;
-         background-color: black;
+         background-color: #1C1C1C;
          border-radius: 3px;
          border: 2px solid grey;
       }
@@ -73,14 +73,15 @@ if (isset($_POST["reset"])) {
       }
       body{
          background-color: #f9f9f9;
-          padding: 35px;
+         padding: 35px;
+         
       } 
    </style>
   </head>
 
 <body>
-<form method="POST">
-   <table id="calculadora">
+<form method="POST" >
+   <table id="calculadora" cellpadding="10" cellspacing="0" >
       <tr>
          <td colspan="4">
          <label id="lab1">CALCULADORA PHP</label>
