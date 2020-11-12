@@ -42,44 +42,37 @@ if (isset($_POST["reset"])) {
     <style type="text/css">
       td {
          text-align: center;
-         border: 1px solid #B0E0E6;
+         border: 1px solid #191970;
          height: 50px;
       }
       #bt {
          height: 40px;
-         width: 40px;
-         font-size: 20px;
          color: black;
-         background-color: #B0E0E6;
-         border-radius: 3px;
-         border: 2px solid #E0FFFF;
+         background-color: #1E90FF;
+         border: 2px solid #00BFFF;
       }
       #btc{
          height: 50px;
-         width: 40px;
-         font-size: 20px;
          color: white;
          background-color: red;
-         border-radius: 3px;
          border: 2px solid #B22222;
       }
       #bti{
          height: 45px;
-         width: 40px;
-         font-size: 20px;
          color: black;
          background-color: #32CD32;
-         border-radius: 3px;
          border: 2px solid #00FF00;
       }
       #bts{
          height: 45px;
-         width: 40px;
-         font-size: 20px;
          color: white;
          background-color: #00008B;
-         border-radius: 3px;
          border: 2px solid #0000CD;
+      }
+      #bts, #bti, #btc, #bt{
+         width: 40px;
+         border-radius: 3px;
+         font-size: 20px;
       }
       input#v1 {
          background-color: #759475;
