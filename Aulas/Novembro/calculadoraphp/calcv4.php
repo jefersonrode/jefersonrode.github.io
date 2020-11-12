@@ -27,8 +27,8 @@ if (isset($_POST["calcular"])) {
    $_SESSION['ss'] = 0;
 }
 if (isset($_POST["reset"])) {
- session_destroy();
- $_SESSION = array();
+   $_SESSION = array();
+   session_destroy();
 }
 ?>
 
